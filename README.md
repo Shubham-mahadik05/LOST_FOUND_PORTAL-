@@ -26,16 +26,16 @@ A web-based platform built using **React**, **Firebase**, and **Framer Motion** 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/lost-found-portal.git
+git clone https://github.com/Shubham-mahadik05/LOST_FOUND_PORTAL.git
 cd lost-found-portal
 # LOST_FOUND_PORTAL-
 
 2. Install Dependencies
-bash
-Copy
-Edit
+
 npm install
+
 3. Firebase Configuration
+
 Go to Firebase Console
 
 Create a project
@@ -50,9 +50,8 @@ Enable:
 
 Copy your Firebase config and replace in App.js:
 
-js
-Copy
-Edit
+JS 
+
 const firebaseConfig = {
   apiKey: "YOUR_API_KEY",
   authDomain: "YOUR_AUTH_DOMAIN",
@@ -61,11 +60,10 @@ const firebaseConfig = {
   messagingSenderId: "YOUR_SENDER_ID",
   appId: "YOUR_APP_ID",
 };
+
 4. Run the App
-bash
-Copy
-Edit
 npm start
+
 Visit http://localhost:3000 in your browser.
 
 📁 Project Structure
