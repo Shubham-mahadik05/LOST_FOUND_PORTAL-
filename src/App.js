@@ -22,16 +22,16 @@ import { motion } from "framer-motion";
 import { FaTag, FaListAlt, FaAlignLeft, FaImage, FaPaperPlane, FaSearchLocation } from "react-icons/fa"; // Add FaSearchLocation
 import "./index.css";
 
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyATqudH7Hw5cpJCBrJnuhGE48RGcUsxHJw",   
+  apiKey: "AIzaSyATqudH7Hw5cpJCBrJnuhGE48RGcUsxHJw",
   authDomain: "lost-found-portal-da2a1.firebaseapp.com",
   projectId: "lost-found-portal-da2a1",
   storageBucket: "lost-found-portal-da2a1.firebasestorage.app",
   messagingSenderId: "922749142719",
   appId: "1:922749142719:web:3e59cf445297f015d2280a",
   measurementId: "G-XDZMY1ZL30"
-};  
-
+};
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 const auth = getAuth(app);
